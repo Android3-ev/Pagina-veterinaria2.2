@@ -1,0 +1,516 @@
+/*CUERPO*/
+body {
+    margin: 0px;
+    overflow: auto;
+  }
+
+/*CABECERA*/
+.iconos{
+    width: 100%;
+    height: 66px;
+    background-color: #10599C;
+    opacity: 80%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/*CONTACTOS*/
+.iconos li{
+    float: left;
+    list-style: none;
+    position: relative;
+    left: -0.6%;
+    top: 7px;
+   
+}
+
+/*GMAIL*/
+.iconos .Gmail{
+    float: left;
+    top: 12%;
+    left: 280px;
+}
+
+/*TELEFONO*/
+.iconos img{
+    font-size: 20%;
+    float: left;
+    position: relative;
+    left: 7px;
+}
+
+/*ICONOS DE REDES*/
+.redes{
+    
+    width: 20%;
+    position: absolute;
+    right: 235px;
+}
+
+/*ICONOS DE USUARIO*/
+#Usuario{
+    position: absolute;
+    top: 14.3px
+}
+
+/*BARRA DIVISORA*/
+#barra{
+    color: #fff;
+    font-size: 42px;
+    position: absolute;
+    right: 166px;
+    top: 9px;
+}
+
+/*LINK DE RESGITRO*/
+span a{
+    text-decoration:none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13.3px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: 10%;
+    top: 26px;
+}
+
+#registro{
+    position: absolute;
+    right: 68px;
+    top: 26px;
+}
+
+/*TEXTO DE LA CABECERA*/
+.iconos ul li a {
+    text-decoration: none;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+/*LOGO*/
+.logo{
+    float: left;
+    position: relative;
+    right: -2.9%;
+    top: 12px;
+}
+
+/*MENÚ*/
+
+.menu{
+    overflow: hidden;
+    /*border: 2px solid #4CAF50;*/
+    padding: 0px;
+}
+.menu ul {
+    margin: 0%;
+    list-style: none;
+}
+
+/*MENÚ DE OPCIONES*/
+.menu li {
+    float: left;
+    position: relative;
+    top: 57px;
+}
+ /*ATRIBUTOS DEL MENÚ DE OPCIONES*/
+.menu ul li a {
+
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    text-align: right;
+    color: #444;
+    font-size: 28.5px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+.menu a:hover{
+    color: #10599C;
+    text-decoration: underline;
+}
+
+/*CARRITO DE COMPRAS*/
+#carrito{
+    position: absolute;
+    right: 352px;
+    top: 107px;
+}
+
+/*AGENDACION DE CITAS*/
+#citas{
+    
+    position: absolute;
+    right: 28px;
+    top: 100px;
+}
+
+/*LINEA DIVISORA*/
+.linea{
+    width: 100%;
+    height: 7px;
+    background-color: #10599C;
+    opacity: 80%;
+    margin-bottom: 0.9%;
+}
+
+/*DIV PRINCIPAL*/
+.vista-producto{
+    overflow: auto;
+    padding: 10px;
+}
+
+/*PRODUCTO PRINCIPAL*/
+.vista-producto img{
+    width: 42%;
+    float: left;
+    position: relative;
+    left: 55px;
+}
+
+/*PROMOCION*/
+.promo{
+    float: right;
+    width: 45%;
+    background-color: rgba(151, 71, 255, 0.3);
+    border-radius: 10px;
+    position: relative;
+    right: 80px;
+    padding: 2px;
+}
+
+.promo h2{
+    color: #9B009E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    position: relative;
+    left: 12px;
+}
+
+.promo img{
+    width: 22%;
+    position: absolute;
+    top: -58px;
+    left: 670px;
+}
+
+.vista-producto h1{
+    width: 28%;
+    color: #0F5FA9;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 972px;
+    top: 335px;
+    font-weight: 800;
+}
+
+.vista-producto p{
+    width: 31%;
+    color: #444;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    position: absolute;
+    left: 972px;
+    top: 460px;
+}
+
+.estrellas{
+    width: 20%;
+    position: absolute;
+    left: 915px;
+    top: 705px;
+}
+
+.estrellas pre{
+    color: #767676;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 230px;
+    top: -22px;
+}
+
+
+.precios{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 970px;
+    top: 720px;
+}
+
+
+.precio-anterior{
+    color: #767676;
+    text-decoration:line-through;
+    font-size: 23px;
+}
+
+.precio-nuevo{
+    position: relative;
+    top: -25px;
+    color: #027200;
+    font-size: 30px;
+}
+
+.cantidad{
+    width: 6%;
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid #444;
+    position: relative;
+    top: -100px;
+    left: 970px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NÚMERO DE CANTIDAD*/
+.numero{
+    color: #444;
+    position: relative;
+    left: 52px;
+    top: -10px;
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+/*SIGNOS DE CANTIDAD*/
+.menos{
+    width: 10%;
+    color: #444;
+    font-size: 35px;
+    position: absolute;
+    left: 16px;
+    top: -37px;
+    font-weight: bold; 
+}
+.mas{
+    color: #444;
+    font-size: 23px;
+    position: absolute;
+    left: 88px;
+    top: -15px;
+    font-weight: bold;
+}
+
+.comprar{
+    width: 8%;
+    height: 40px;
+    border: 2px solid #444;
+    border-radius: 7px;
+    position: relative;
+    top: -145px;
+    left: 1120px;
+    padding: 1px;
+}
+
+.comprar p{
+    color: #444;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -18px;
+    left: 25px;
+}
+
+hr{
+    width: 93%;
+    height: 0.4px;
+    background-color: #444;
+    position: relative;
+    bottom: 74px;
+}
+
+/*ARTICULOS SIMILARES*/
+.articulos{
+    width: 25%;
+    color: #0F5FA9;
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -80px;
+    left: 68px;
+    font-weight: 800;
+}
+
+.margen{
+    float: left;
+    width: 20%;
+    height: 472px;
+    padding: 8px;
+    border-radius: 18px;
+    border: 3px solid #767676;
+    margin-left: 38px;
+    margin-right: 15px;
+    position: relative;
+    top: -65px;
+    left: 30px;
+}
+
+.img_producto{
+    height: 250px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+ }
+
+ .p{
+    width: 78%;
+    position: relative;
+    top: 20px;
+    left: 45px;
+ }
+.precio{
+    color: #027200;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.nombre{
+    font-size: 14px;
+    width: 95%;
+    color: #444;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*REACCIÓN*/
+.corazon {
+    position: relative;
+    left: 310px;
+    top: -330px;
+}
+/*CARRITO_PRODUCTO1*/
+.carrito{
+    position: relative;
+    top: -85px;
+    left: 260px;
+}
+
+/*ELECCION*/
+.eleccion{
+    width: 80%;
+    height: 28px;
+    padding: 2px;
+    border-radius: 8px;
+    border: 2px solid #555;
+    position: relative;
+    top: -35px;
+    left: 38px;
+}
+
+/*P EN ELECCION*/
+.eleccion p{
+    font-size: 14px;
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.botom-cantidad{
+    width: 23%;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #444;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 428px;
+}
+
+/*NÚMERO DE CANTIDAD*/
+.numero-2{
+    color: #444;
+    position: relative;
+    left: 42px;
+    top: -7px;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+/*SIGNOS DE CANTIDAD*/
+.menos-2{
+    width: 10%;
+    color: #444;
+    font-size: 30px;
+    position: absolute;
+    left: 12px;
+    top: -28px;
+    font-weight: bold; 
+}
+
+.mas-2{
+    color: #444;
+    font-size: 18px;
+    position: absolute;
+    left: 70px;
+    top: -7px;
+    font-weight: bold;
+}
+
+.botom-compra{
+    width: 42%;
+    height: 42px;
+    border-radius: 8px;
+    border: 2px solid #444;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 185px;
+    top: 427px;
+}
+
+.botom-compra p{
+    color: #444;
+    position: relative;
+    top: -5px;
+    left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*ELECCION*/
+.eleccion-2{
+    width: 80%;
+    height: 28px;
+    padding: 2px;
+    border-radius: 8px;
+    border: 2px solid #555;
+    position: relative;
+    top: -19px;
+    left: 38px;
+}
+
+/*P EN ELECCION*/
+.eleccion-2 p{
+    font-size: 14px;
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+#pie_pag{
+    width:100%;
+    position: relative;
+    top: -10px;
+}
+
+#logo_pie{
+    position: absolute;
+    right: 1270px;
+    top: 1460px;
+}
+

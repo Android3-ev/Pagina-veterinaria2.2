@@ -1,0 +1,609 @@
+/*CUERPO*/
+body {
+    margin: 0px;
+    overflow: auto;
+  }
+
+/*CABECERA*/
+.iconos{
+    width: 100%;
+    height: 66px;
+    background-color: #10599C;
+    opacity: 80%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+/*CONTACTOS*/
+.iconos li{
+    float: left;
+    list-style: none;
+    position: relative;
+    left: -0.6%;
+    top: 7px;
+   
+}
+
+/*GMAIL*/
+.iconos .Gmail{
+    float: left;
+    top: 12%;
+    left: 280px;
+}
+
+/*TELEFONO*/
+.iconos img{
+    font-size: 20%;
+    float: left;
+    position: relative;
+    left: 7px;
+}
+
+/*ICONOS DE REDES*/
+.redes{
+    
+    width: 20%;
+    position: absolute;
+    right: 235px;
+}
+
+/*ICONOS DE USUARIO*/
+#Usuario{
+    position: absolute;
+    top: 14.3px
+}
+
+/*BARRA DIVISORA*/
+#barra{
+    color: #fff;
+    font-size: 42px;
+    position: absolute;
+    right: 166px;
+    top: 9px;
+}
+
+/*LINK DE RESGITRO*/
+span a{
+    text-decoration:none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13.3px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: 10%;
+    top: 26px;
+}
+
+#registro{
+    position: absolute;
+    right: 68px;
+    top: 26px;
+}
+
+/*TEXTO DE LA CABECERA*/
+.iconos ul li a {
+    text-decoration: none;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+/*LOGO*/
+.logo{
+    float: left;
+    position: relative;
+    right: -2.9%;
+    top: 12px;
+}
+
+/*MENÚ*/
+
+.menu{
+    overflow: hidden;
+    /*border: 2px solid #4CAF50;*/
+    padding: 0px;
+}
+.menu ul {
+    margin: 0%;
+    list-style: none;
+}
+
+/*MENÚ DE OPCIONES*/
+.menu li {
+    float: left;
+    position: relative;
+    top: 57px;
+}
+ /*ATRIBUTOS DEL MENÚ DE OPCIONES*/
+.menu ul li a {
+
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    text-align: right;
+    color: #444;
+    font-size: 28.5px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+.menu a:hover{
+    color: #10599C;
+    text-decoration: underline;
+}
+
+/*CARRITO DE COMPRAS*/
+#carrito{
+    position: absolute;
+    right: 352px;
+    top: 107px;
+}
+
+/*AGENDACION DE CITAS*/
+#citas{
+    
+    position: absolute;
+    right: 28px;
+    top: 100px;
+}
+
+/*LINEA DIVISORA*/
+.linea{
+    width: 100%;
+    height: 7px;
+    background-color: #10599C;
+    opacity: 80%;
+    margin-bottom: 0.9%;
+}
+/*BANNER SESION DE GATO*/
+#banner_gato{
+    position: relative;
+    left: 290px;
+}
+/*MENÚ DE OPCIONES SESION DE GATO*/
+.opciones{
+    float: left;
+    width: 13%;
+    height: 60px;
+    padding: 5px;
+    border-radius: 3%;
+    background-color: #9bc5fc;
+    filter: brightness(96%);
+    margin-left: 45px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.opciones img{
+    float: left;
+    position: relative;
+    left: 6px;
+    top: 8px;
+
+}
+
+.opciones h2{
+    text-align: center;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*MARCO DEL 1MER PRODUCTOS*/
+.productos{
+    float: left;
+    width: 20%;
+    padding: 5px;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    margin-top: 60px;
+    margin-left: 39px;
+    margin-right: 38px;
+}
+/*IMAGEN DEL PRIMER PRODUCTO*/
+.primer_producto{
+   position: relative;
+   left: -4px;
+   top: 25px;
+}
+/*REACCIÓN*/
+.circulo {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -415px;
+    left: 308px;
+}
+/*CARRITO_PRODUCTO1*/
+.circulo .carrito{
+    position: relative;
+    bottom: -620%;
+    left: -2px;
+}
+/*PRECIO*/
+.precio{
+    color: #027200;
+    position: relative;
+    right: -47px;
+    top: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*NOMBRE*/
+.nombre{
+    color: #444;
+    position: relative;
+    right: -39px;
+    top: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*ELECCION*/
+.eleccion{
+    padding: 2px;
+    border-radius: 6%;
+    border: 2px solid #555;
+    width: 80%;
+    height: 30px;
+    position: relative;
+    top: -17px;
+    left: 38px;
+}
+
+/*P EN ELECCION*/
+.eleccion p{
+    color: #444;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*MARGEN DE LA CANTIDAD*/
+.cantidad{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    left: 38px;
+}
+
+/*NÚMERO DE CANTIDAD*/
+.cantidad p{
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*SIGNOS DE CANTIDAD*/
+.cantidad .menos{
+    color: #444;
+    font-size: 28px;
+    position: absolute;
+    top: -28.5px;
+    left: 16px;
+}
+.cantidad .mas{
+    color: #444;
+    font-size: 18px;
+    position: absolute;
+    top: -10.5px;
+    left: 84px;
+}
+
+/*BOTON DE COMPRA1*/
+.comprar1{
+    border-radius: 8%;
+    border: 2px solid #555;
+    width: 44%;
+    height: 37px;
+    position: relative;
+    top: -29px;
+    left: 176px;
+}
+.comprar1 p{
+    width: 50%;
+    color: #444;
+    position: relative;
+    top: -7.2px;
+    left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*DESCUENTO*/
+#descuento{
+    position: relative;
+    bottom: 655px;
+    left: 5px;
+}
+
+/*IMAGEN DESALINEADAS (OTROS)*/
+.otros{
+    position: relative;
+    left: 27px;
+}
+
+/*SEGUNDA LINEA DE PRODUCTOS*/
+.productos2{
+    float: left;
+    width: 20%;
+    height: 615px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    margin-top: 50px;
+    margin-left: 36px;
+    margin-right: 28px;
+}
+
+.segundo_producto{
+    position: relative;
+    left: 8px;
+    top: 30px;
+}
+
+/*PRODUCTO 5*/
+.productos5{
+    float: left;
+    width: 20%;
+    height: 615px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    margin-top: 50px;
+    margin-left: 48px;
+    margin-right: 28px;
+}
+
+/*IMAGEN DEL PRODUCTO 5*/
+#quinta_imagen{
+    position: relative;
+    left: 22px;
+    top: 40px;
+}
+/*DESCUENTO DEL PRODUCTO 5*/
+#descuento_{
+    position: absolute;
+    top: 1245px;
+    left: 18px;
+}
+/*IMAGEN DEL PRODUCTO 6 y 7*/
+.productos5 img{
+    position: relative;
+    left: 28px;
+    top: 40px;
+}
+
+
+/*REACCIÓN*/
+.circulo5{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -350px;
+    left: 299px;
+}
+/*CARRITO_PRODUCTO 5*/
+.circulo5 .carrito5{
+    position: absolute;
+    top: 322px;
+    left: 20px;
+}
+
+/*REACCIÓN*/
+.circulo2 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -385px;
+    left: 290px;
+}
+/*CARRITO_PRODUCTO 6 7 8*/
+.circulo2 .carrito2{
+    position: absolute;
+    top: 362px;
+    left: 20px;
+}
+/*PRECIO*/
+.precio2{
+    color: #027200;
+    position: relative;
+    right: -30px;
+    top: 68px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/*NOMBRE*/
+.nombre2{
+    color: #444;
+    position: relative;
+    right: -39px;
+    top: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*ELECCION*/
+.eleccion2{
+    padding: 2px;
+    border-radius: 6%;
+    border: 2px solid #555;
+    width: 80%;
+    height: 30px;
+    position: relative;
+    top: 46px;
+    left: 38px;
+}
+
+/*P EN ELECCION*/
+.eleccion2 p{
+    color: #444;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*MARGEN DE LA CANTIDAD*/
+.cantidad2{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 77.5px;
+    left: 38px;
+}
+
+/*NÚMERO DE CANTIDAD*/
+.cantidad2 p{
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*SIGNOS DE CANTIDAD*/
+.cantidad2 .menos2{
+    color: #444;
+    font-size: 28px;
+    position: absolute;
+    top: -28.5px;
+    left: 16px;
+}
+.cantidad2 .mas2{
+    color: #444;
+    font-size: 18px;
+    position: absolute;
+    top: -10.5px;
+    left: 84px;
+}
+
+/*BOTON DE COMPRA 5*/
+.comprar2{
+    border-radius: 8%;
+    border: 2px solid #555;
+    width: 44%;
+    height: 37px;
+    position: relative;
+    top: 38px;
+    left: 176px;
+}
+.comprar2 p{
+    color: #444;
+    position: relative;
+    top: -7.2px;
+    left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*MARGEN DEL PRODUCTO 8*/
+.productos8{
+    float: left;
+    width: 20%;
+    height: 614px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    margin-top: -58px;
+    margin-left: 55px;
+    margin-right: 28px;
+}
+
+/*IMAGEN DEL PRODUCTO 8*/
+.productos8 .otros2{
+    position: relative;
+    left: 28px;
+    top: 40px;
+}
+
+/*REACCIÓN*/
+.circulo3 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -340px;
+    left: 290px;
+}
+/*CARRITO_PRODUCTO 5*/
+.circulo3 .carrito3{
+    position: absolute;
+    top: 332px;
+    left: 20px;
+}
+
+/*TERCERA LINEA DE PRODUCTOS*/
+/*IMAGEN DE LA ULTIMA FILA*/
+.ultimo_producto{
+    position: relative;
+    left: 35px;
+    top: 40px;
+}
+
+.precio9{
+    color: #027200;
+    position: relative;
+    right: -10px;
+    top:-5px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/*REACCIÓN ULTIMA FILA*/
+.circulo9 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -360px;
+    left: 315px;
+}
+/*CARRITO_PRODUCTO 9*/
+.circulo9 .carrito9{
+    position: absolute;
+    top: 300px;
+    left: -4px;
+}
+
+.ultimo_producto2{
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+.precio10{
+    color: #027200;
+    position: relative;
+    right: 18px;
+    top:-5px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#descuento__{
+    position: absolute;
+    top: 1930px;
+    left: 480px;
+}
+
+#pie_pag{
+    width:100%;
+    position: relative;
+    top: 40px;
+}
+
+#logo_pie{
+    position: relative;
+    top: -670px;
+}

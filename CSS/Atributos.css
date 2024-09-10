@@ -1,0 +1,811 @@
+/*CUERPO*/
+body {
+    margin: 0px;
+    overflow: auto;
+  }
+
+/*CABECERA*/
+.iconos{
+    width: 100%;
+    height: 66px;
+    background-color: #10599C;
+    opacity: 80%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+/*CONTACTOS*/
+.iconos li{
+    float: left;
+    list-style: none;
+    position: relative;
+    left: -0.6%;
+    top: 7px;
+   
+}
+
+/*GMAIL*/
+.iconos .Gmail{
+    float: left;
+    top: 12%;
+    left: 280px;
+}
+
+/*TELEFONO*/
+.iconos img{
+    font-size: 20%;
+    float: left;
+    position: relative;
+    left: 7px;
+}
+
+/*ICONOS DE REDES*/
+.redes{
+    
+    width: 20%;
+    position: absolute;
+    right: 235px;
+}
+
+/*ICONOS DE USUARIO*/
+#Usuario{
+    position: absolute;
+    top: 14.3px
+}
+
+/*BARRA DIVISORA*/
+#barra{
+    color: #fff;
+    font-size: 42px;
+    position: absolute;
+    right: 166px;
+    top: 9px;
+}
+
+/*LINK DE RESGITRO*/
+span a{
+    text-decoration:none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13.3px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: 10%;
+    top: 26px;
+}
+
+#registro{
+    position: absolute;
+    right: 68px;
+    top: 26px;
+}
+
+/*TEXTO DE LA CABECERA*/
+.iconos ul li a {
+    text-decoration: none;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+/*LOGO*/
+.logo{
+    float: left;
+    position: relative;
+    right: -2.9%;
+    top: 12px;
+}
+
+/*MENÚ*/
+
+.menu{
+    overflow: hidden;
+    /*border: 2px solid #4CAF50;*/
+    padding: 0px;
+}
+.menu ul {
+    margin: 0%;
+    list-style: none;
+}
+
+/*MENÚ DE OPCIONES*/
+.menu li {
+    float: left;
+    position: relative;
+    top: 57px;
+}
+ /*ATRIBUTOS DEL MENÚ DE OPCIONES*/
+.menu ul li a {
+
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    text-align: right;
+    color: #444;
+    font-size: 28.5px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+.menu a:hover{
+    color: #10599C;
+    text-decoration: underline;
+}
+
+/*CARRITO DE COMPRAS*/
+#carrito{
+    position: absolute;
+    right: 352px;
+    top: 107px;
+}
+
+/*AGENDACION DE CITAS*/
+#citas{
+    
+    position: absolute;
+    right: 28px;
+    top: 100px;
+}
+
+/*LINEA DIVISORA*/
+.linea{
+    width: 100%;
+    height: 7px;
+    background-color: #10599C;
+    opacity: 80%;
+    margin-bottom: 0.9%;
+}
+
+/*BANNER*/
+.banner1{
+    width: 98%;
+    height: 90%;
+    position: relative;
+    right: -1%;
+}
+
+/*TÍTULO DE PRODUCTOS*/
+div h1{
+    width: 80%;
+    font-size: 55px;
+    color: #10599C;
+    position: relative;
+    right: -1%;
+    top: -20px;
+}
+
+h3{
+    width: 50%;
+    color: #555;
+    font-size: 20.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: -1%;
+    top: -48px;
+}
+
+/*PRESENTACIÓN DE LA TIENDA*/
+#tienda{
+    width: 25%;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #444;
+    position: relative;
+    left: 72.6%;
+}
+
+/*MARCO DEL 1MER PRODUCTOS*/
+#producto1{
+    width: 20%;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    position: absolute;
+    left: 20px;
+    bottom: -830px;
+}
+
+/*IMAGEN DEL PRIMER PRODUCTO*/
+#primer_producto{
+    position: relative;
+    right: -70px;
+    top: 35px;
+}
+
+/*PRECIO*/
+.precio{
+    color: #027200;
+    position: relative;
+    right: 30px;
+    top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NOMBRE DEL PRODUCTO*/
+.nombre{
+    color: #444;
+    position: relative;
+    right: -39px;
+    top: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*REACCIÓN*/
+.circulo {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -415px;
+    left: 308px;
+}
+
+/*CARRITO_PRODUCTO1*/
+.circulo #CARRITO{
+    position: relative;
+    bottom: -620%;
+    left: -2px;
+}
+
+/*ELECCION*/
+#eleccion{
+    padding: 2px;
+    border-radius: 6%;
+    border: 2px solid #555;
+    width: 80%;
+    height: 30px;
+    position: relative;
+    top: -17px;
+    left: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*P EN ELECCION*/
+#eleccion p{
+    color: #444;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+/*MARGEN DE LA CANTIDAD*/
+#cantidad{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    left: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*NÚMERO DE CANTIDAD*/
+#cantidad p{
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 50px;
+}
+
+/*SIGNOS DE CANTIDAD*/
+#cantidad #menos{
+    color: #444;
+    font-size: 28px;
+    position: absolute;
+    top: -28px;
+    left: 16px;
+    
+}
+#cantidad #mas{
+    color: #444;
+    font-size: 19px;
+    position: absolute;
+    top: -12px;
+    left: 84px;
+}
+
+/*BOTON DE COMPRA1*/
+#comprar1{
+    border-radius: 8%;
+    border: 2px solid #555;
+    width: 44%;
+    height: 37px;
+    position: relative;
+    top: -29px;
+    left: 176px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#comprar1 p{
+    color: #444;
+    position: relative;
+    top: -7.2px;
+    left: 50px;
+}
+
+/*MARCO DEL 2DO PRODUCTOS*/
+.producto2{
+    width: 20%;
+    height: 66%;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    position: absolute;
+    bottom: -828.9px;
+    left: 480px;
+}
+
+/*IMAGEN DEL SEGUNDO PRODUCTO*/
+#segundo_producto{
+    position: relative;
+    right: -35px;
+    top: 41px;
+}
+
+/*PRECIO DEL SEGUNDO PRODUCTO*/
+.precio2{
+    color: #027200;
+    position: relative;
+    right: -8px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*NOMBRE DEL SEGUNDO PRODUCTO*/
+.nombre2{
+    color: #444;
+    position: relative;
+    right: -39px;
+    top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*MARGEN DE LA CANTIDAD*/
+#cantidad2{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    left: 38px;
+}
+
+
+/*ELECCION 2*/
+#eleccion2{
+    padding: 2px;
+    border-radius: 5%;
+    border: 2px solid #555;
+    width: 80%;
+    height: 30px;
+    position: relative;
+    top: -8px;
+    left: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#eleccion2 p{
+    color: #444;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+#cantidad2{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 18px;
+    left: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*NÚMERO DE CANTIDAD*/
+#cantidad2 p{
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 50px;
+}
+
+/*SIGNOS DE CANTIDAD*/
+#cantidad2 #menos2{
+    color: #444;
+    font-size: 30px;
+    position: absolute;
+    top: -32px;
+    left: 16px;
+}
+#cantidad2 #mas2{
+    color: #444;
+    font-size: 19px;
+    position: absolute;
+    top: -13px;
+    left: 84px;
+}
+
+/*BOTON DE COMPRA2*/
+#comprar2{
+    border-radius: 7%;
+    border: 2px solid #555;
+    width: 44%;
+    height: 37px;
+    position: relative;
+    top: -21.6px;
+    left: 176px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#comprar2 p{
+    color: #444;
+    position: relative;
+    top: -7.2px;
+    left: 50px;
+}
+
+
+/*DESCUENTO*/
+#descuento{
+    position: relative;
+    bottom: 475px;
+    left: 430px;
+}
+
+
+/*MARCO DEL 3CER PRODUCTOS*/
+.producto3{
+    width: 20%;
+    height: 66%;
+    border-radius: 5%;
+    border: 3px solid #767676;
+    position: absolute;
+    bottom: -828.9px;
+    left: 938px;
+}
+
+/*IMAGEN DEL TERCER PRODUCTO*/
+#tercer_producto{
+    position: relative;
+    right: -1px;
+    top: 41px;
+}
+
+/*PRECIO DEL TERCER PRODUCTO*/
+.precio3{
+    color: #027200;
+    position: relative;
+    right: -38px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*NOMBRE DEL TERCER PRODUCTO*/
+.nombre3{
+    color: #444;
+    position: relative;
+    right: -39px;
+    top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*MARGEN DE LA CANTIDAD*/
+#cantidad3{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    left: 38px;
+}
+
+
+/*ELECCION 3*/
+#eleccion3{
+    padding: 2px;
+    border-radius: 5%;
+    border: 2px solid #555;
+    width: 80%;
+    height: 30px;
+    position: relative;
+    top: -8px;
+    left: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#eleccion3 p{
+    color: #444;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+
+#cantidad3{
+    border-radius: 10%;
+    border: 2px solid #555;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    top: 18px;
+    left: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*NÚMERO DE CANTIDAD*/
+#cantidad3 p{
+    color: #444;
+    position: relative;
+    top: -8px;
+    left: 50px;
+}
+
+/*SIGNOS DE CANTIDAD*/
+#cantidad3 #menos3{
+    color: #444;
+    font-size: 30px;
+    position: absolute;
+    top: -32px;
+    left: 16px;
+}
+#cantidad3 #mas3{
+    color: #444;
+    font-size: 19px;
+    position: absolute;
+    top: -13px;
+    left: 84px;
+}
+
+/*BOTON DE COMPRA3*/
+#comprar3{
+    border-radius: 7%;
+    border: 2px solid #555;
+    width: 44%;
+    height: 37px;
+    position: relative;
+    top: -21.6px;
+    left: 176px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#comprar3 p{
+    color: #444;
+    position: relative;
+    top: -7.2px;
+    left: 50px;
+}
+
+/*BANNER_CUIDADOS_DE_MASCOTAS*/
+#cuidados{
+    width: 97.7%;
+    position: relative;
+    top: 90px;
+    left: 21px;
+}
+
+/*QUIENES SOMOS*/
+.quienes_somos{
+    overflow: auto;
+    padding: 5px;
+    position: relative;
+    top: 90px;
+}
+
+.quienes_somos h1{
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 5px;
+    left: 42px;
+}
+.quienes_somos img{
+    float: right;
+    width: 40%;
+    position: relative;
+    bottom: 465px;
+    right: 18px;
+}
+
+.somos{
+    width: 48%;
+    font-size: 24px;
+    text-align: justify;
+    color: #444;
+    position: relative;
+    left: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*ARENA SANITARIA*/
+.arena{
+    width: 97.8%;
+    position: relative;
+    left: 22.5px;
+    top: -358px;
+}
+
+/*HORARIOS DE ATENTENCIÓN*/
+.recomendaciones1{
+    width: 31%;
+    height: 390px;
+    border: 2.9px solid #D9D9D9;
+    position: relative;
+    left: 22.5px;
+    top: -356px;
+}
+
+.recomendaciones1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #444;
+    position: relative;
+    left: 55px;
+    top: 1px;
+}
+
+.recomendaciones1 p{
+    width: 61%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    text-align: justify;
+    position: relative;
+    left: 100px;
+}
+
+#dias{
+    width: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+#hora{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    left: 300px;
+    top: -5px;
+}
+
+.recomendaciones1 img{
+    position: relative;
+    left: 450px;
+    top: -10px;
+}
+
+/*URGENCIAS*/
+.recomendaciones2{
+    width: 31%;
+    height: 390px;
+    border: 2.9px solid #D9D9D9;
+    position: relative;
+    left: 654px;
+    top: -750px;
+}
+
+.recomendaciones2 h1{
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #444;
+    position: relative;
+    left: 120px;
+    top: 1px;
+}
+
+.recomendaciones2 p{
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    text-align: justify;
+    position: relative;
+    left: 118px;
+}
+
+#dia{
+    width: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    left: 118px;
+    top: 30px;
+}
+
+#horas{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    left: 315px;
+    top: -20px;
+}
+.recomendaciones2 img{
+    position: relative;
+    left: 450px;
+    top: -10px;
+}
+
+/*SERVICIOS*/
+.recomendaciones3{
+    width: 31%;
+    height: 390px;
+    border: 2.9px solid #D9D9D9;
+    position: relative;
+    left: 1285px;
+    top: -1144px;
+}
+
+.recomendaciones3 h1{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #444;
+    position: relative;
+    left: 180px;
+    top: 1px;
+}
+
+.recomendaciones3 ul li{
+   list-style: none;
+   color: #444;
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   top: 2px;
+}
+
+#Dia{
+    width: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    left: 43px;
+    top: 15px;
+}
+
+#Hora{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    left: 315px;
+    top: -36px;
+}
+
+.recomendaciones3 img{
+    position: relative;
+    left: 485px;
+    top: -55px;
+}
+
+#pie_pag{
+    width:100%;
+    position: relative;
+    top: -1120px;
+}
+
+#logo_pie{
+    position: relative;
+    top: -1830px;
+}

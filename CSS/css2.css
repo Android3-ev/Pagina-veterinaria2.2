@@ -1,0 +1,216 @@
+.cabecera{
+    width: 100%;
+    display: flex;
+    border: 2px solid#10599C;
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+}
+
+.busqueda{
+    border: 2px solid#085f14;
+    border-radius: 5px;
+    width: 530px;
+    height: 50px;
+    background-color: #fff;
+    position: relative;
+    left: 360px;
+    top: 50px;
+}
+
+.busqueda p{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    color: #444;
+    font-weight: bold;
+}
+
+
+/*ICONOS DE REDES*/
+.redes{
+    height: 40px;
+    position: relative;
+    left: 900px;
+    top: 40px;
+}
+
+ul{
+    margin: 0%;
+    list-style: none; 
+}
+
+.menu li{
+    float: left;
+    position: relative;
+    top: 57px;
+}
+
+.menu ul li{
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    text-align: right;
+    color: #444;
+    font-size: 28.5px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.menu li:hover{
+    color: #10599C;
+}
+
+.registro{
+    width: 12%;
+    height: 60px;
+    border: 2px solid#085f14;
+    background-color: #085f14;
+    border-radius: 5px;
+    position: relative;
+    right: 70px;
+    top: 35px;
+    float: right;
+}
+
+.registro h2{
+    color: #fff;
+    font-family: sans-serif;
+    position: relative;
+    left: 80px;
+    bottom: 5px;
+}
+
+.registro a{
+    text-decoration: none;
+}
+
+.banners{
+    width: 98%;
+    position: relative;
+    left: 15px;
+    top: 90px;
+}
+
+.banner1{
+    width: 100%;
+}
+
+.titulo{
+    width: 20%;
+    position: relative;
+    top:200px;
+    left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.datos{
+    width: 50%;
+    height: 330px;
+    border: 2px solid cadetblue;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.item{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+.item2{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 530px;
+    bottom: 20px;
+}
+
+
+.item3{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+.item4{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 530px;
+    bottom: 20px;
+}
+
+.item5{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+.item6{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 530px;
+    bottom: 20px;
+}
+
+.item7{
+    border: 2px solid cadetblue;
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 300px;
+    top: 10px;
+}
+
+.pie{
+    width: 1890px;
+    height: 300px;
+    background-color: #444;
+    position: relative;
+    top: 250px;
+}
+
+.pie p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 150px;
+}
+
+.pie-img{
+    width: 10%;
+    position: relative;
+    right: 600px;
+    top: 90px;
+}
+
+
+
+
